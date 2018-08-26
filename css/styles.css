@@ -24,3 +24,12 @@
 .special {
   padding-bottom: 10px;
 }
+/* Login */
+/* Logo */
+.logotipo {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  padding-left: 10px;
+}
