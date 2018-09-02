@@ -1,4 +1,5 @@
 
+/* INDEX CSS */
 /* Botones */
 .myButton {
   color: #fff !important;
@@ -33,3 +34,13 @@
 .navbar-brand {
   padding-left: 10px;
 }
+
+/* CURSOS CSS */
+
+/* MainSection */
+@media (min-width: 576px) {
+.jumbotron {
+  padding: 6rem 2rem;
+  }
+}
+/* ItemCarousel */
