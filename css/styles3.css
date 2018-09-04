@@ -3,7 +3,7 @@
 }
 body {
     display: flex;
-    background-color: #343a40 ;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -41,7 +41,7 @@ body {
   
   .myButton:hover {
     color: white !important;
-    background-color: #343a40 !important;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     border-color: white !important;
   }
   .whiteone {

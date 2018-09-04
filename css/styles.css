@@ -1,5 +1,9 @@
 
 /* INDEX CSS */
+.nav_bg {
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+  background-color: #343a40;
+}
 body {
   background-color: #f5f5f5;
 }
@@ -18,6 +22,12 @@ body {
   color: black !important;
   background-color: #fff !important;
   border-color: #fff !important;
+}
+
+.myButton2 {
+  color: #343a40;
+  background-color: #f5f5f5;
+  border-color: #343a40;
 }
 
 /* Marketing */
@@ -77,4 +87,14 @@ i {
 }
 .coolnes2 {
   color: gray;
+}
+
+.dropdown-item:active {
+  background-color: #343a40;
+  color: white;
+}
+.BannerOne {
+  text-align: center;
+  padding: 30px;
+  color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }

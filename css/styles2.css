@@ -64,16 +64,67 @@ body {
   }
 
   .banner-top {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
   }
   .display-3 {
     text-align: right;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: bold;
+
   }
-  .coolnes {
-    float: right;
-    width: 500px;
-    text-align: right;
+  .coolnes3 {
     color: white;
+    text-align: right;
+    font-size: 1.5rem;
   }
   
+/* footer */
+.text-uppercase {
+  color: white;
+}
+
+.coolnes {
+  color: white;
+}
+
+.footerlink {
+  color: gray;
+  text-decoration: none;
+}
+.footerlink:hover {
+  color: white;
+  text-decoration: none;
+}
+i {
+  color: white !important;
+}
+.footer-copyright {
+  color: white;
+}
+.coolnes2 {
+  color: gray;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.card-body {
+  background-color: #343a40;
+  color:white;
+
+}
+.btn-style {
+color: white
+}
+.btn-style:hover {
+  background: white;
+  color: #343a40;
+}
+
+.dropdown-item:active {
+  background-color: #343a40;
+  color: white;
+}
+

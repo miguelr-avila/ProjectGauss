@@ -13,6 +13,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lato|Quicksand|Raleway|Roboto" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -29,7 +32,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark nav_bg fixed-top">
         <div class="container">
             <figure class="logotipo">
                 <img src="img/Logo36.png" alt="Logo">
@@ -57,7 +60,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usuario</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown03">
                           <a class="dropdown-item" href="login.html">Iniciar Sesión</a>
-                          <a class="dropdown-item" href="#">Registrate</a>
+                          <a class="dropdown-item" href="register.html">Registrate</a>
                         </div>
                       </li>
                 </ul>
@@ -73,12 +76,12 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="first-slide" src="img/Carousel1.png" alt="First slide">
+                <img class="first-slide" src="img/Carousel1.4.jpg" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>PROJECT GAUSS</h1>
+                        <h1>ProjectGauss</h1>
                         <p>Álgebra para todos</p>
-                        <p><a class="btn btn-lg btn-primary myButton" href="#" role="button">Registrate</a></p>
+                        <p><a class="btn btn-lg btn-primary myButton" href="register.html" role="button">Registrate</a></p>
                     </div>
                 </div>
             </div>
@@ -86,7 +89,7 @@
                 <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>SOBRE EL PROYECTO</h1>
+                        <h1>Sobre el Proyecto</h1>
                         <p>Conoce lo que nos motiva y nuestros objetivos a traves de la enseñanza de las matemáticas</p>
                         <p><a class="btn btn-lg btn-primary myButton" href="#" role="button">Aprende más</a></p>
                     </div>
@@ -96,9 +99,9 @@
                 <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>LO MÁS NUEVO</h1>
+                        <h1>Nuestros Cursos</h1>
                         <p>Conoce sobre nuestros ultimos cursos</p>
-                        <p><a class="btn btn-lg btn-primary myButton" href="#" role="button">Más Cursos</a></p>
+                        <p><a class="btn btn-lg btn-primary myButton" href="cursos.html" role="button">Más Cursos</a></p>
                     </div>
                 </div>
             </div>
@@ -116,24 +119,25 @@
     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
+        <h1 class="BannerOne">Nuestros Mejores Cursos</h1>
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
             <h2>Matrices</h2>
             <p>Aprende sobre las operaciones basicas de matrices como la suma de matrices y sus propiedades, los diferentes tipos de matrices y como resolver diversos problemas con el metodo de Gauss y Gauss-Jordan </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary myButton2" href="#" role="button">Ver Tema</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
             <h2>Introducción al álgebra</h2>
             <p>Aprende sobre los fundamentos del álgebra así como sus operaciones más basicas al mismo tiempo que resulves problemas algebraicos sencillos mediante diversos metodos que podras conocer aqui</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary myButton2" href="#" role="button">Ver Tema</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
             <h2>Productos Notables</h2>
             <p>Aprende sobre los productos notables, como factor común, binomios con termino común o el binomio al cuadrado perfecto, cómo diferenciarlos y las formas correctas de rosolver cada uno de estos productos notables</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary myButton2" href="#" role="button">Ver Tema</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -205,8 +209,7 @@
               <!-- Content -->
               <h6 class="text-uppercase font-weight-bold">ProjectGauss</h6>
               <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p class="coolnes">Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</p>
+              <p class="coolnes">Un espacio para los que odian el Álgebra y aquellos que la aman</p>
 
             </div>
             <!-- Grid column -->
@@ -237,7 +240,7 @@
               <h6 class="text-uppercase font-weight-bold">Nuestros Cursos</h6>
               <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <a class="footerlink" href="#!">Álgebra</a>
+                <a class="footerlink" href="cursos.html">Álgebra</a>
               </p>
 
             </div>
